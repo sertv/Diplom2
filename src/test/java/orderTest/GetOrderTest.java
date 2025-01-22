@@ -14,37 +14,36 @@ import static org.junit.Assert.*;
 
 public class GetOrderTest {
     private static String userAccessToken;
-    API Api = new API();
 
     @Before
     public void setUp() {
         // Создаем пользователя перед тестами
         UserData user = new UserData(UserData.userEmail,UserData.userPassword, UserData.userName);
         // Получаем accessToken для последующего удаления пользователя
-        ValidatableResponse response = Api.createUser(user);
-        userAccessToken = Api.checkCreateUser(response);
+        ValidatableResponse response = API.createUser(user);
+        userAccessToken = API.checkCreateUser(response);
     }
     @After
     public void tearDown() {
         if (userAccessToken != null ) {
-            ValidatableResponse deleteResponse = Api.deleteUser(userAccessToken);
-            Api.checkDeleteUser(deleteResponse);
+            ValidatableResponse deleteResponse = API.deleteUser(userAccessToken);
+            API.checkDeleteUser(deleteResponse);
         }
 
     }
     @Test
     @DisplayName("Получить заказ авторизованным пользователем")
     public void getUserOrdersWithAuthorization() {
-        String[] ingredients = Api.getIngredients();
-        Response createOrderResponse = Api.createOrder(ingredients, userAccessToken);
-        Response response = Api.getUserOrderWithAuthorization(userAccessToken);
+        String[] ingredients = API.getIngredients();
+        Response createOrderResponse = API.createOrder(ingredients, userAccessToken);
+        Response response = API.getUserOrderWithAuthorization(userAccessToken);
         boolean errorMessage = response.jsonPath().getList("orders").isEmpty();
         assertFalse("You should be authorised", errorMessage);
     }
     @Test
     @DisplayName("Получить заказ неавторизованным пользователем")
     public void getUserOrdersWithoutAuthorization() {
-        Response response = Api.getUserOrderWithoutAuthorization();
+        Response response = API.getUserOrderWithoutAuthorization();
         response.then().statusCode(HTTP_UNAUTHORIZED);
         String errorMessage = response.jsonPath().getString("message");
         assertEquals("You should be authorised", errorMessage);

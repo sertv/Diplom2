@@ -13,28 +13,27 @@ import static org.junit.Assert.assertEquals;
 
 public class ChangeUserTest {
     private static String userAccessToken;
-    API Api = new API();
 
     @Before
     public void setUp() {
         // Создаем пользователя перед тестами
         UserData user = new UserData(UserData.userEmail,UserData.userPassword, UserData.userName);
         // Получаем accessToken для последующего удаления пользователя
-        ValidatableResponse response = Api.createUser(user);
-        Api.loginUser(user);
-        userAccessToken = Api.checkCreateUser(response);
+        ValidatableResponse response = API.createUser(user);
+        API.loginUser(user);
+        userAccessToken = API.checkCreateUser(response);
     }
     @After
     public void tearDown() {
-        ValidatableResponse deleteResponse = Api.deleteUser(userAccessToken);
-        Api.checkDeleteUser(deleteResponse);
+        ValidatableResponse deleteResponse = API.deleteUser(userAccessToken);
+        API.checkDeleteUser(deleteResponse);
     }
 
     @Test
     @DisplayName("Успешное обновление данных с авторизацией")
     public void updateUserDataWithAuthorization() {
         UserData user = new UserData(UserData.changedEmail,UserData.changedUserPassword, UserData.changedUserName);
-        Response response = Api.updateUserWithAuthorization(userAccessToken, user);
+        Response response = API.updateUserWithAuthorization(userAccessToken, user);
         String email = response.jsonPath().getString("user.email");
         String name = response.jsonPath().getString("user.name");
         System.out.println("Response body: " + response.body().asString());
@@ -46,7 +45,7 @@ public class ChangeUserTest {
         @DisplayName("Обновление данных без авторизации")
     public void updateUserDataWithoutAuthorization() {
         UserData user = new UserData(UserData.userName, UserData.userEmail,UserData.userPassword);
-        Response response = Api.updateUserWithoutAuthorization(user);
+        Response response = API.updateUserWithoutAuthorization(user);
         String errorMessage = response.jsonPath().getString("message");
         assertEquals("You should be authorised", errorMessage);
     }

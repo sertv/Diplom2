@@ -58,14 +58,14 @@ public class API {
 
     @Step ("Создание заказа")
     public static Response createOrder(String[] ingredients, String accessToken) {
-        Response response =
+        return
                 given()
                         .header(AUTHORIZATION_HEADER, accessToken)
                         .contentType(ContentType.JSON)
                         .baseUri(MAIN_PAGE_URL)
-                        .body(new OrderData(ingredients))
+                        .body(gson.toJson(new OrderData(ingredients)))
                         .post(ORDER);
-        return response;
+
     }
     @Step("Получение списка ингредиентов")
     public static String[] getIngredients() {
