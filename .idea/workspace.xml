@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f07c8f33-bf84-418c-8951-1303684182c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/lib/config/jetty-logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/lib/config/jetty-logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/lib/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/lib/config/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.15.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orderTest/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orderTest/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orderTest/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orderTest/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/userTest/ChangeUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/userTest/ChangeUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/userTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/userTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/userTest/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/userTest/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/03225fae-cb44-4dc7-9748-d43fe6a3312b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/066634da-9665-4a3c-979e-27a2c3f9b53a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/23b0aa22-1c02-4597-a846-f5f9cf8d5fda-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5bfa7868-23e7-44f8-b691-046cd12b2115-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6c56b44b-6642-4240-8e33-cb8e364d7726-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/72e4fe6f-287a-42ab-9b7d-02280cc844ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8bd4bbdd-b9b7-453c-b8f7-d16854d0c267-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8c4ea405-5f25-40a2-8961-086e2af12450-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a10006a5-e2c4-4633-bde3-f5d589ee8ba2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a5965bf5-e881-4af3-8f85-3d5b9203d840-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ab82d005-f161-4279-abf6-b8deed4b23f4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c5949fb6-785f-4182-b1ae-c4c152160c8c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/db09399b-52a5-4fee-9c28-fb6a67f17c7f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/Api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/ApiRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/OrderData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/OrderData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/UserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/UserData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-orderTest.CreateOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-orderTest.CreateOrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-orderTest.GetOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-orderTest.GetOrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.ChangeUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.ChangeUserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.RegistrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-userTest.RegistrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/orderTest.CreateOrderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/orderTest.CreateOrderTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/orderTest.GetOrderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/orderTest.GetOrderTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/userTest.ChangeUserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/userTest.ChangeUserTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/userTest.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/userTest.LoginTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/userTest.RegistrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/userTest.RegistrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/orderTest/CreateOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/orderTest/CreateOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/orderTest/GetOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/orderTest/GetOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userTest/ChangeUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/userTest/ChangeUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userTest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/userTest/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userTest/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/userTest/RegistrationTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sertv&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/sertv/Diplom2.git&quot;,
+    &quot;accountId&quot;: &quot;a9e42a69-ae7e-4711-9264-9f7236bac5e2&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rjNSP8nDsCNQW0xa4ciRqB73Ef" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CreateOrderTest.createOrder.executor": "Run",
+    "JUnit.CreateOrderTest.executor": "Run",
+    "JUnit.GetOrderTest.getUserOrdersWithoutAuthorization.executor": "Run",
+    "JUnit.LoginTest.successfulUserLogin.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#1 on develop2",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CreateOrderTest.createOrder">
+    <configuration name="ChangeUserTest.updateUserDataWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userTest" />
+      <option name="MAIN_CLASS_NAME" value="userTest.ChangeUserTest" />
+      <option name="METHOD_NAME" value="updateUserDataWithoutAuthorization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orderTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orderTest" />
+      <option name="MAIN_CLASS_NAME" value="orderTest.CreateOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orderTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orderTest" />
+      <option name="MAIN_CLASS_NAME" value="orderTest.CreateOrderTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderTest.getUserOrdersWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orderTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orderTest" />
+      <option name="MAIN_CLASS_NAME" value="orderTest.GetOrderTest" />
+      <option name="METHOD_NAME" value="getUserOrdersWithoutAuthorization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.successfulUserLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userTest" />
+      <option name="MAIN_CLASS_NAME" value="userTest.LoginTest" />
+      <option name="METHOD_NAME" value="successfulUserLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateOrderTest.createOrder" />
+        <item itemvalue="JUnit.CreateOrderTest" />
+        <item itemvalue="JUnit.GetOrderTest.getUserOrdersWithoutAuthorization" />
+        <item itemvalue="JUnit.LoginTest.successfulUserLogin" />
+        <item itemvalue="JUnit.ChangeUserTest.updateUserDataWithoutAuthorization" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f07c8f33-bf84-418c-8951-1303684182c6" name="Changes" comment="" />
+      <created>1737068523462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737068523462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
